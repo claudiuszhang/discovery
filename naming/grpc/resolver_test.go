@@ -1,6 +1,7 @@
 package resolver
 
 import (
+	"net/url"
 	"sync"
 	"testing"
 	"time"
@@ -72,8 +73,8 @@ func (m *mockClientConn) NewAddress(addresses []resolver.Address) {
 func (m *mockClientConn) NewServiceConfig(serviceConfig string) {
 
 }
-func (m *mockClientConn) UpdateState(state resolver.State) {
-
+func (m *mockClientConn) UpdateState(state resolver.State) error {
+	return nil
 }
 func (m *mockClientConn) ReportError(error) {
 }
@@ -83,7 +84,7 @@ func (m *mockClientConn) ParseServiceConfig(serviceConfigJSON string) *serviceco
 }
 
 func TestBuilder(t *testing.T) {
-	target := resolver.Target{Endpoint: "discovery://default/service.name?zone=sh001&cluster=c1&cluster=c2&cluster=c3"}
+	target := resolver.Target{URL: url.URL{Scheme: "discovery://default/service.name?zone=sh001&cluster=c1&cluster=c2&cluster=c3"}}
 	mb := &mockBuilder{}
 	b := &Builder{mb}
 	cc := &mockClientConn{}
