@@ -6,9 +6,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/model"
-	"github.com/bilibili/discovery/registry"
+	"github.com/claudiuszhang/discovery/conf"
+	"github.com/claudiuszhang/discovery/model"
+	"github.com/claudiuszhang/discovery/registry"
 	"github.com/go-kratos/kratos/pkg/ecode"
 	log "github.com/go-kratos/kratos/pkg/log"
 )

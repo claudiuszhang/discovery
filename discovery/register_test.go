@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	dc "github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/model"
+	dc "github.com/claudiuszhang/discovery/conf"
+	"github.com/claudiuszhang/discovery/model"
 
 	"github.com/go-kratos/kratos/pkg/conf/paladin"
 	"github.com/go-kratos/kratos/pkg/ecode"

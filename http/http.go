@@ -3,8 +3,8 @@ package http
 import (
 	"errors"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/discovery"
+	"github.com/claudiuszhang/discovery/conf"
+	"github.com/claudiuszhang/discovery/discovery"
 
 	log "github.com/go-kratos/kratos/pkg/log"
 	bm "github.com/go-kratos/kratos/pkg/net/http/blademaster"

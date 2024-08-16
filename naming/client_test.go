@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/discovery"
-	"github.com/bilibili/discovery/http"
+	"github.com/claudiuszhang/discovery/conf"
+	"github.com/claudiuszhang/discovery/discovery"
+	"github.com/claudiuszhang/discovery/http"
 
 	"github.com/go-kratos/kratos/pkg/conf/paladin"
 	xhttp "github.com/go-kratos/kratos/pkg/net/http/blademaster"

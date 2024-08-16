@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/bilibili/discovery/conf"
-	"github.com/bilibili/discovery/model"
+	"github.com/claudiuszhang/discovery/conf"
+	"github.com/claudiuszhang/discovery/model"
 
 	"golang.org/x/sync/errgroup"
 )

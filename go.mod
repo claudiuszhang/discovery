@@ -1,4 +1,4 @@
-module github.com/bilibili/discovery
+module github.com/claudiuszhang/discovery
 
 go 1.21
 
